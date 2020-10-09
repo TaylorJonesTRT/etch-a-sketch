@@ -1,0 +1,45 @@
+html {
+	background: #e8e8e8;
+}
+
+#container {
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.logo {
+	text-align: center;
+}
+
+:root {
+	--grid-cols: 1;
+	--grid-rows: 1;
+}
+
+#sketch-pad {
+	width: 550px;
+	height: 550px;
+	margin: 0 auto;
+	border: 3px solid #000000;
+	display: grid;
+	grid-template-rows: repeat(var(--grid-rows), 1fr);
+	grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.square {
+	border: 1px solid #000000;
+}
+
+.grid-item {
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+.hover {
+	background-color: #000000;
+}
+
+.reset {
+	text-align: center;
+	margin-top: 20px;
+}
